@@ -145,8 +145,7 @@
 			       <sourceDirectory>src</sourceDirectory>
 			</configuration>
 	        </plugin>
-        	 
-        	 <!-- PMD -->
+               	 <!-- PMD -->
         	<plugin>
                    <groupId>org.apache.maven.plugins</groupId>
                    <artifactId>maven-pmd-plugin</artifactId>
@@ -160,8 +159,7 @@
                        </configuration>
         	</plugin>
         	
-        	
-        	<!-- Findbugs-->
+        	 <!-- Findbugs-->
       		 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>findbugs-maven-plugin</artifactId>
