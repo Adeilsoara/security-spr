@@ -136,15 +136,7 @@
 		<plugins>
 		
 			
-        	<!--Checkstyle-->
-        	<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-		         	<artifactId>maven-checkstyle-plugin</artifactId>
-			<version>2.10</version>
-			<configuration>
-			       <sourceDirectory>src</sourceDirectory>
-			</configuration>
-	        </plugin>
+        	
                	 <!-- PMD -->
         	<plugin>
                    <groupId>org.apache.maven.plugins</groupId>
@@ -158,6 +150,16 @@
                                </rulesets>
                        </configuration>
         	</plugin>
+        	
+        	<!--Checkstyle-->
+        	<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+		         	<artifactId>maven-checkstyle-plugin</artifactId>
+			<version>2.10</version>
+			<configuration>
+			       <sourceDirectory>src</sourceDirectory>
+			</configuration>
+	        </plugin>
         	
         	 <!-- Findbugs-->
       		 <plugin>
